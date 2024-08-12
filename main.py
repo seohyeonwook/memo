@@ -40,3 +40,5 @@ def delete_memo(memo_id):
 
 
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
+
+
